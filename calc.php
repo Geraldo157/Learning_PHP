@@ -1,11 +1,10 @@
 <?php
-global $results;
+$results = [];
 function operators($num1, $num2){
     $sum = $num1 + $num2;
     $sub = $num1 - $num2;
     $div = $num1 / $num2;
     $mult = $num1 * $num2;
-    $results = [$sum, $sub, $div, $mult];
 }
 
 operators(5 , 6);
