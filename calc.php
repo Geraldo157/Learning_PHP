@@ -5,12 +5,13 @@ function operators($num1, $num2){
     $sub = $num1 - $num2;
     $div = $num1 / $num2;
     $mult = $num1 * $num2;
+    return [$sum, $sub, $div, $mult];
 }
 
-operators(5 , 6);
+$results = operators(5 , 6);
 
 for($i = 0; $i < count($results); $i++){
     echo '<pres>';
-    echo $results[i];
+    echo $results[$i] . "<br>";
     echo '</pres>';
 }
