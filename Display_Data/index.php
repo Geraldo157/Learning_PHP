@@ -6,6 +6,9 @@
     <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <?php require_once 'code.php' ?>
+    <h2>Table of Transactions</h2>
+    <div class="tabela">
+        <?php require_once 'code.php' ?>
+    </div>
 </body>
 </html>

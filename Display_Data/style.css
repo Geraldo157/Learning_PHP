@@ -1,0 +1,16 @@
+.tabela {
+    display: flex;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Bahnschrift;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
