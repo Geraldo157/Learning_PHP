@@ -11,6 +11,7 @@ class calculations{
 
     public function calculate(){
         $calc = $this->valorInvestido * (1 - $this->juros) ** $this->anos;
+        return $calc;
     }
 
     public function getAnos(){
