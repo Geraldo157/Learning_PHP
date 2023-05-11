@@ -1,14 +1,21 @@
+body{
+    background-color: khaki;
+}
 .tabela {
     display: flex;
     justify-content: center;
 }
-h2{
+h1{
     text-align: center;
+    font-size: 40px;
 }
 table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
-    font-family: Bahnschrift;
+    font-family: Bahnschrift, serif;
+}
+table{
+    background-color: ghostwhite;
 }
 th, td {
     padding: 5px;
