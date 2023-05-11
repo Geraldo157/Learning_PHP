@@ -17,6 +17,9 @@ table, th, td {
 table{
     background-color: ghostwhite;
 }
+img{
+    margin-left: 20px;
+}
 th, td {
     padding: 5px;
     text-align: left;
